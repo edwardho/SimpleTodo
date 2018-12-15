@@ -4,7 +4,7 @@ SimpleToDo is an android app that allows building a todo list and basic todo ite
 
 Submitted by: **Edward Ho**
 
-Time spent: **4** hours spent in total
+Time spent: **5** hours spent in total
 
 Made using CodePath Android's SimpleToDo app tutorial.
 
@@ -22,7 +22,13 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [ ] Improve style of the todo items in the list using a custom adapter
+* [ ] Add support for completion due dates for todo items (and display within listview item)
+* [ ] Improve the UI / UX of your app including icons, styling, color, spacing of your app.
+    Use a DialogFragment instead of new Activity for editing items
+    Persist the todo items into SQLite instead of a text file using SQLiteOpenHelper or Room
+* [ ] Add support for selecting the priority of each todo item (and display in listview item)
+* [ ] Anything else that you can get done to improve the app functionality or user experience!
 
 ## Video Walkthrough
 
@@ -33,8 +39,6 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
-Describe any challenges encountered while building the app.
 
 ## License
 
