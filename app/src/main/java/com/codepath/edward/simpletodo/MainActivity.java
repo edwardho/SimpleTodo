@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
     public final static String ITEM_TEXT = "itemText";
     public final static String ITEM_POSITION = "itemPosition";
 
-    ArrayList<String> items;
     ArrayAdapter<String> itemsAdapter;
+    ArrayList<String> items;
     ListView lvItems;
 
     @Override
@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         readItems();
         itemsAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, items);
+
         lvItems = (ListView) findViewById(R.id.lvItems);
         lvItems.setAdapter(itemsAdapter);
 
